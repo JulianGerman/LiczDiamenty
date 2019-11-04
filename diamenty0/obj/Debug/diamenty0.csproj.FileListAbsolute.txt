@@ -8,12 +8,15 @@ D:\c-project\diamenty0\obj\Debug\diamenty0.csproj.GenerateResource.cache
 D:\c-project\diamenty0\obj\Debug\diamenty0.csproj.CoreCompileInputs.cache
 D:\c-project\diamenty0\obj\Debug\diamenty0.exe
 D:\c-project\diamenty0\obj\Debug\diamenty0.pdb
-C:\Users\Lenovo\Downloads\c-project-master\diamenty0\obj\Debug\diamenty0.exe
-C:\Users\Lenovo\Downloads\c-project-master\diamenty0\obj\Debug\diamenty0.pdb
-C:\Users\Lenovo\Downloads\c-project-master\diamenty0\bin\Debug\diamenty0.exe.config
-C:\Users\Lenovo\Downloads\c-project-master\diamenty0\bin\Debug\diamenty0.exe
-C:\Users\Lenovo\Downloads\c-project-master\diamenty0\bin\Debug\diamenty0.pdb
-C:\Users\Lenovo\Downloads\c-project-master\diamenty0\obj\Debug\diamenty0.csprojAssemblyReference.cache
-C:\Users\Lenovo\Downloads\c-project-master\diamenty0\obj\Debug\diamenty0.Form1.resources
-C:\Users\Lenovo\Downloads\c-project-master\diamenty0\obj\Debug\diamenty0.Properties.Resources.resources
-C:\Users\Lenovo\Downloads\c-project-master\diamenty0\obj\Debug\diamenty0.csproj.GenerateResource.cache
+C:\projekt c#\c-project-master\diamenty0\bin\Debug\diamenty0.exe.config
+C:\projekt c#\c-project-master\diamenty0\bin\Debug\diamenty0.exe
+C:\projekt c#\c-project-master\diamenty0\bin\Debug\diamenty0.pdb
+C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.csprojAssemblyReference.cache
+C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.Form1.resources
+C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.Properties.Resources.resources
+C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.csproj.GenerateResource.cache
+C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.exe
+C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.pdb
+C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.Level1.resources
+C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.Level2.resources
+C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.Level3.resources
