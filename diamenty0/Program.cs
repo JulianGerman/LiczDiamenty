@@ -18,6 +18,8 @@ namespace diamenty0
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
+            
+
 
            
         }

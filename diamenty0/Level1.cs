@@ -22,68 +22,53 @@ namespace diamenty0
             Application.Exit();
         }
 
+        
 
         private void Level1_KeyDown(object sender, KeyEventArgs e)
         {
+            int wspX = User.Location.X;
+            int wspY = User.Location.Y;
 
             if (e.KeyCode == Keys.Escape)
             {
                 Application.Exit();
             }
 
-            //movement 
+            //movement and bounds 
 
-            if (e.KeyCode == Keys.W)
+           if (e.KeyCode == Keys.Space)
             {
-                User.Top -= 13;
+                label1.Text = " x = " +  Convert.ToString(wspX);
+                label2.Text = " y = " + Convert.ToString(wspY);
             }
 
-            else if (e.KeyCode == Keys.A)
+            if (e.KeyCode == Keys.W && wspY > 115)
             {
-                User.Left -= 13;
+                User.Top -= 18;
             }
 
-            else if (e.KeyCode == Keys.S)
+            else if (e.KeyCode == Keys.A && wspX > 7)
             {
-                User.Top += 13;
+                User.Left -= 18;
             }
 
-            else if (e.KeyCode == Keys.D)
+            else if (e.KeyCode == Keys.S && wspY < 508)
             {
-                User.Left += 13;
+                User.Top += 18;
             }
 
-            /*else if (e.KeyCode == Keys.D )
+            else if (e.KeyCode == Keys.D && wspX < 680)
             {
-                User.Left += 10;
-                User.Top -= 10;
-            }*/
-
+                User.Left += 18;
+            }
 
         }
+           
+       
 
-        private void Level1_KeyUp(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.W)
-            {
-                User.Top -= 13;
-            }
+        
 
-            else if (e.KeyCode == Keys.A)
-            {
-                User.Left -= 13;
-            }
-
-            else if (e.KeyCode == Keys.S)
-            {
-                User.Top += 13;
-            }
-
-            else if (e.KeyCode == Keys.D)
-            {
-                User.Left += 13;
-            }
-        }
+        
     }
         
        
