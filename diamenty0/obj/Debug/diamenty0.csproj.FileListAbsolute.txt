@@ -20,3 +20,5 @@ C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.pdb
 C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.Level1.resources
 C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.Level2.resources
 C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.Level3.resources
+C:\projekt c#\c-project-master\diamenty0\bin\Debug\chest.png
+C:\projekt c#\c-project-master\diamenty0\bin\Debug\5.png

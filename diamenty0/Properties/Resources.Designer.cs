@@ -63,16 +63,6 @@ namespace diamenty0.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _5 {
-            get {
-                object obj = ResourceManager.GetObject("5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _51 {
             get {
                 object obj = ResourceManager.GetObject("51", resourceCulture);
@@ -86,26 +76,6 @@ namespace diamenty0.Properties {
         internal static System.Drawing.Bitmap Bez_nazwy {
             get {
                 object obj = ResourceManager.GetObject("Bez nazwy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap chest_try {
-            get {
-                object obj = ResourceManager.GetObject("chest try", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap chest_try__1_ {
-            get {
-                object obj = ResourceManager.GetObject("chest try (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -44,6 +44,7 @@ namespace diamenty0
             l3.SetBounds(this.Location.X, this.Location.Y, this.Width, this.Height);
             this.Hide();
         }
+
        
     }
 }
