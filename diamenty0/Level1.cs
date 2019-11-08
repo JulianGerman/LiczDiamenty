@@ -45,6 +45,11 @@ namespace diamenty0
             e.Graphics.DrawImage(new Bitmap("chest.png"), chest.Wspx, chest.Wspy, chest.width, chest.height);
             e.Graphics.DrawImage(new Bitmap("5.png"), user.Wspx, user.Wspy, user.width, user.height);
 
+           if (user.show == true )
+            {
+                e.Graphics.DrawImage(new Bitmap("5.png"), user.Wspx, user.Wspy, user.width, user.height);
+            }
+
             /* for (int i = 0; i < 240; i += 60)
              {
                  e.Graphics.DrawImage(skrzynka, chx + i, chy);
@@ -67,8 +72,8 @@ namespace diamenty0
         }
             private void Level1_KeyDown(object sender, KeyEventArgs e)
             {
-                int wspX = User.Location.X;
-                int wspY = User.Location.Y;
+               // int wspX = User.Location.X;
+               // int wspY = User.Location.Y;
                 
                
 
@@ -82,36 +87,32 @@ namespace diamenty0
 
                 if (e.KeyCode == Keys.Space)
                 {
-                    label1.Text = " x = " + Convert.ToString(wspX);
-                    label2.Text = " y = " + Convert.ToString(wspY);
+                    label1.Text = " x = " + user.Wspx;
+                    label2.Text = " y = " + user.Wspy;
                 }
 
-                if (e.KeyCode == Keys.W && wspY > 15)
+                if (e.KeyCode == Keys.W )//&& wspY > 15)
                 {
-                    User.Top -= 18;
+                   // User.Top -= 18;
                     user.moveup();
-                
-
+                    
                 }
 
-
-
-
-                else if (e.KeyCode == Keys.A && wspX > 7)
+                else if (e.KeyCode == Keys.A)// && wspX > 7)
                 {
-                    User.Left -= 18;
+                    //User.Left -= 18;
                     user.moveleft();
                 }
 
-                else if (e.KeyCode == Keys.S && wspY < 377)
+                else if (e.KeyCode == Keys.S )//&& wspY < 377)
                 {
-                    User.Top += 18;
+                    //User.Top += 18;
                     user.movedown();
                 }
 
-                else if (e.KeyCode == Keys.D && wspX < 680)
+                else if (e.KeyCode == Keys.D)// && wspX < 680)
                 {
-                    User.Left += 18;
+                    //wUser.Left += 18;
                     user.moveright();
                 }
 
@@ -120,13 +121,8 @@ namespace diamenty0
 
             }
 
-        
-
-
-        
-                
-
-            }
+      
+    }
 
 
 
