@@ -16,24 +16,24 @@ namespace diamenty0
 
         public void moveup()
         {
-            Wspy = Wspy -  18;
+            Wspy = Wspy -  10;
            
 
 
         }
         public void movedown()
         {
-            Wspy += 18;
+            Wspy += 10;
             
         }
         public void moveleft()
         {
-            Wspx -= 18;
+            Wspx -= 10;
             
         }
         public void moveright()
         {
-            Wspx += 18;
+            Wspx += 10;
             
         }
         
