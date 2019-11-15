@@ -10,9 +10,17 @@ namespace diamenty0
     {
         public int height = 50;
         public int width = 50;
-        public int Wspx = 100;
-        public int Wspy = 50;
+        public int Wspx ;
+        public int Wspy ;
 
+
+        public Chest (int height,int width, int Wspx, int Wspy)
+            {
+            this.Wspx = Wspx;
+            this.Wspy = Wspy;
+            this.height = height;
+            this.width = width;
+            }
 
     }
 }

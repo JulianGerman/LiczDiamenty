@@ -22,3 +22,34 @@ C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.Level2.resources
 C:\projekt c#\c-project-master\diamenty0\obj\Debug\diamenty0.Level3.resources
 C:\projekt c#\c-project-master\diamenty0\bin\Debug\chest.png
 C:\projekt c#\c-project-master\diamenty0\bin\Debug\5.png
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.csprojAssemblyReference.cache
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Form1.resources
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Level1.resources
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Level2.resources
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Level3.resources
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Properties.Resources.resources
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.csproj.GenerateResource.cache
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.csproj.CoreCompileInputs.cache
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.exe
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.pdb
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\bin\Debug\5.png
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\bin\Debug\chest.png
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\bin\Debug\diamenty0.exe.config
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\bin\Debug\diamenty0.exe
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\bin\Debug\diamenty0.pdb
+C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\bin\Debug\tlo2.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\5.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\chest.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\tlo2.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\diamenty0.exe.config
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\diamenty0.exe
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\diamenty0.pdb
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.csprojAssemblyReference.cache
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Form1.resources
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Level1.resources
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Level2.resources
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Level3.resources
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Properties.Resources.resources
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.csproj.GenerateResource.cache
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.exe
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.pdb

@@ -10,31 +10,31 @@ namespace diamenty0
     {
         public int height = 50;
         public int width = 50;
-        public int Wspx = 100;
-        public int Wspy = 100;
-        public Boolean show = false;
+        public int Wspx = 200;
+        public int Wspy = 200;
+        
 
         public void moveup()
         {
             Wspy = Wspy -  18;
-            show = true;
+           
 
 
         }
         public void movedown()
         {
             Wspy += 18;
-            show = true;
+            
         }
         public void moveleft()
         {
-            Wspx += 18;
-            show = true;
+            Wspx -= 18;
+            
         }
         public void moveright()
         {
-            Wspx -= 18;
-            show = true;
+            Wspx += 18;
+            
         }
         
     }
