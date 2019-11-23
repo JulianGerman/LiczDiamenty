@@ -41,7 +41,6 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
-           // this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // label1
             // 
@@ -51,7 +50,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1024, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "graj";
             // 
             // label2
             // 
@@ -80,7 +79,6 @@
             this.Minutnik.TabIndex = 2;
             this.Minutnik.Text = "00:45";
             this.Minutnik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            //this.Minutnik.Click += new System.EventHandler(this.Minutnik_Click);
             // 
             // Level1
             // 
@@ -98,7 +96,8 @@
             this.Text = "Level1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Level1_FormClosing);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Level1_Paint);
-           this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Level1_KeyDown);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Level1_KeyDown);
+            this.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Level1_PreviewKeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

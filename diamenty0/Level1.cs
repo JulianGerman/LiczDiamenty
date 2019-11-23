@@ -40,13 +40,14 @@ namespace diamenty0
             skrzynki.Add(chest5);
             skrzynki.Add(chest6);
             skrzynki.Add(chest7);
-            //Start Czasu 
 
+            //Start Czasu 
             timer1 = new Timer();
             // timer1.Tick += new EventHandler(timer1_Tick);
+            Minutnik.Text = "00:" + counter.ToString();
             timer1.Interval = 10000; // 1 second
             timer1.Start();
-            Minutnik.Text = "00:" + counter.ToString();
+           
 
         }
 
@@ -61,71 +62,63 @@ namespace diamenty0
         private void Level1_KeyDown(object sender, KeyEventArgs e)
         {
 
-            if (e.KeyCode == Keys.Escape)
+
+            if (label1.Text.Equals("graj"))
             {
-                Application.Exit();
+                bandy();
+                if (e.KeyCode == Keys.Escape)
+                {
+                    Application.Exit();
+                }
+
+                if (e.KeyCode == Keys.Space)
+
+                {
+                    label1.Text = "graj";
+                    label2.Text = " y = " + user.Imgy;
+
+                }
+
+                if (e.KeyCode == Keys.W && user.Wspy > 182)
+                {
+
+                    user.moveup();
+                    g.DrawImage(new Bitmap("5.png"), user.Wspx, user.Wspy, user.width, user.height);
+
+
+                }
+
+
+                else if (e.KeyCode == Keys.A && user.Wspx > 2)
+                {
+                    user.moveleft();
+                    g.DrawImage(new Bitmap("5.png"), user.Wspx, user.Wspy, user.width, user.height);
+
+
+
+                }
+
+                else if (e.KeyCode == Keys.S && user.Wspy < 524)
+                {
+                    user.movedown();
+                    g.DrawImage(new Bitmap("5.png"), user.Wspx, user.Wspy, user.width, user.height);
+
+
+
+                }
+
+                else if (e.KeyCode == Keys.D && user.Wspx < 704)
+                {
+                    user.moveright();
+                    g.DrawImage(new Bitmap("5.png"), user.Wspx, user.Wspy, user.width, user.height);
+                }
+                Invalidate();
             }
-
-            if (e.KeyCode == Keys.Space)
-
-            {
-
-                label1.Text = " x = " + roznica();
-                label2.Text = " y = " + roznica();
-            }
-
-            if (e.KeyCode == Keys.W && user.Wspy > 182)
-            {
-                user.moveup();
-                g.DrawImage(new Bitmap("5.png"), user.Wspx, user.Wspy, user.width, user.height);
-                
-
-            }
-
-
-            else if (e.KeyCode == Keys.A && user.Wspx > 2)
-            {
-                user.moveleft();
-                g.DrawImage(new Bitmap("5.png"), user.Wspx, user.Wspy, user.width, user.height);
-
-                
-
-            }
-
-            else if (e.KeyCode == Keys.S && user.Wspy < 524)
-            {
-                user.movedown();
-                g.DrawImage(new Bitmap("5.png"), user.Wspx, user.Wspy, user.width, user.height);
-
-                
-
-            }
-
-            else if (e.KeyCode == Keys.D && user.Wspx < 704)
-            {
-                user.moveright();
-                g.DrawImage(new Bitmap("5.png"), user.Wspx, user.Wspy, user.width, user.height);
-
-                
-
-            }
-            Invalidate();
         }
 
-        int roznica ()
-            {
-            foreach (Chest chest in skrzynki)
-            {
-                int r1 = Math.Abs(user.Imgx - chest.Imgx);
-                return r1;
-            }
-           foreach(Chest chest in skrzynki)
-            {
-                int r2 = Math.Abs(user.Imgy - chest.Imgy);
-                return r2;
-            }
-                return 0; 
-            }
+            
+
+       
 
         private void Level1_Paint(object sender, PaintEventArgs e)
         {
@@ -139,7 +132,7 @@ namespace diamenty0
         private void timer1_Tick(object sender, EventArgs e)
         {
             counter--;
-            if (counter > 0)
+            if (counter > 10)
             {
                 Minutnik.Text = "00:" + counter.ToString();
             }
@@ -154,8 +147,6 @@ namespace diamenty0
 
                 Minutnik.Text = "00:00";
             }
-
-
         }
 
         private void Minutnik_Click(object sender, EventArgs e)
@@ -163,9 +154,28 @@ namespace diamenty0
 
         }
 
-        
-                       
+        public void bandy()
+        { 
+            foreach (Chest chest in skrzynki)
+                {
+                int r1 = Math.Abs(user.Imgx - chest.Imgx);
+                int r2 = Math.Abs(user.Imgy - chest.Imgy);
+
+                if (r1 < 60 && r2 < 60)
+                {
+                    label1.Text = "bandy";   
+                }
+               
+
+                }
+            
         }
+
+        private void Level1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+
+        }
+    }
     }    
 
 
