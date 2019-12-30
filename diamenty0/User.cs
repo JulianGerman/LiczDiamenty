@@ -19,14 +19,12 @@ namespace diamenty0
         public void moveup()
         {
             Wspy -= 10;
-            Imgy -= 10;
-           
+            Imgy -= 10;        
         }
         public void movedown()
         {
             Wspy += 10;
-            Imgy += 10;
-            
+            Imgy += 10;         
         }
         public void moveleft()
         {

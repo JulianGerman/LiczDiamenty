@@ -40,12 +40,10 @@ C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\bin\Debug\diamenty0.pdb
 C:\Users\Miksiak\Desktop\LiczDiamenty-master\diamenty0\bin\Debug\tlo2.png
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\5.png
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\chest.png
-C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\tlo2.png
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\diamenty0.exe.config
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\diamenty0.exe
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\diamenty0.pdb
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.csprojAssemblyReference.cache
-C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Form1.resources
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Level1.resources
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Level2.resources
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Level3.resources
@@ -53,3 +51,13 @@ C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.csproj.GenerateResource.cache
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.exe
 C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.pdb
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\user.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\Resources\51.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\3.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\7.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\white19.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\minus.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\bin\Debug\plus.png
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Przegrana.resources
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Form1.resources
+C:\Users\Lenovo\Downloads\Julon-master\Julon-master\LiczDiamenty-master\diamenty0\obj\Debug\diamenty0.Wygrana.resources
