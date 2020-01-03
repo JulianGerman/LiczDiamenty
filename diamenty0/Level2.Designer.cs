@@ -38,7 +38,6 @@
             this.wynik = new System.Windows.Forms.Label();
             this.znak = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
@@ -122,17 +121,6 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1024, 24);
             this.label1.TabIndex = 11;
-            this.label1.Text = "graj";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Coral;
-            this.label2.Location = new System.Drawing.Point(0, 224);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "label2";
             // 
             // Level2
             // 
@@ -140,7 +128,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(32)))));
             this.ClientSize = new System.Drawing.Size(1006, 721);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.znak);
             this.Controls.Add(this.wynik);
@@ -155,7 +142,6 @@
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Level2_Paint_1);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Level2_KeyDown);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -169,6 +155,5 @@
         private System.Windows.Forms.Label wynik;
         private System.Windows.Forms.Label znak;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }
