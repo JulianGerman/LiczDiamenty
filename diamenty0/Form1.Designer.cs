@@ -34,6 +34,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.baner = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -65,7 +66,7 @@
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::diamenty0.Properties.Resources.level3;
-            this.pictureBox3.Location = new System.Drawing.Point(655, 514);
+            this.pictureBox3.Location = new System.Drawing.Point(678, 514);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(196, 100);
             this.pictureBox3.TabIndex = 2;
@@ -76,7 +77,7 @@
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::diamenty0.Properties.Resources.level2;
-            this.pictureBox4.Location = new System.Drawing.Point(379, 514);
+            this.pictureBox4.Location = new System.Drawing.Point(389, 514);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(216, 100);
             this.pictureBox4.TabIndex = 3;
@@ -92,12 +93,24 @@
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             // 
+            // baner
+            // 
+            this.baner.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Bold);
+            this.baner.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.baner.Location = new System.Drawing.Point(125, 641);
+            this.baner.Name = "baner";
+            this.baner.Size = new System.Drawing.Size(736, 54);
+            this.baner.TabIndex = 8;
+            this.baner.Text = "Steruj przyciskami strzałek";
+            this.baner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(32)))));
             this.ClientSize = new System.Drawing.Size(1006, 721);
+            this.Controls.Add(this.baner);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -123,6 +136,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label baner;
     }
 }
 

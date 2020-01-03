@@ -13,13 +13,34 @@ namespace diamenty0
         //public Chest(int height, int width, int Wspx, int Wspy)
         Graphics g;
         User user = new User();
-        Chest chest1 = new Chest(50, 50, 100, 300);
-        Chest chest2 = new Chest(50, 50, 100, 350);
-        Chest chest3 = new Chest(50, 50, 100, 400);
-        Chest chest4 = new Chest(50, 50, 100, 450);
-        Chest chest5 = new Chest(50, 50, 300, 400);
-        Chest chest6 = new Chest(50, 50, 350, 400);
-        Chest chest7 = new Chest(50, 50, 400, 400);
+        Chest chest1 = new Chest(50, 50, 150, 300);
+        Chest chest2 = new Chest(50, 50, 100, 300);
+        Chest chest3 = new Chest(50, 50, 50, 300);
+        Chest chest4 = new Chest(50, 50, 0, 300);
+
+
+        Chest chest7 = new Chest(50, 50, 100, 500);
+        Chest chest8 = new Chest(50, 50, 50, 500);
+        Chest chest9 = new Chest(50, 50, 0, 500);
+
+        Chest chest10 = new Chest(50, 50, 300, 450);
+        Chest chest5 = new Chest(50, 50, 300, 500);
+        Chest chest6 = new Chest(50, 50, 300, 400);
+        Chest chest11 = new Chest(50, 50, 300, 350);
+        Chest chest12 = new Chest(50, 50, 300, 300);
+
+        Chest chest13 = new Chest(50, 50, 350, 300);
+        Chest chest14 = new Chest(50, 50, 400, 300);
+        Chest chest15 = new Chest(50, 50, 450, 300);
+
+        Chest chest16 = new Chest(50, 50, 450, 350);
+        Chest chest17 = new Chest(50, 50, 350, 500);
+        Chest chest18 = new Chest(50, 50, 500, 350);
+        Chest chest19 = new Chest(50, 50, 450, 350);
+
+        
+
+
         List<Chest> skrzynki = new List<Chest>();
 
         Diamond diamond1 = new Diamond(50, 50, 500, 500);
@@ -30,21 +51,13 @@ namespace diamenty0
         Diamond diamond5 = new Diamond(50, 50, 200, 380);
         Diamond diamond6 = new Diamond(50, 50, 600, 400);        
         Diamond diamond8 = new Diamond(50, 50, 300, 220);
-
-
-        List<Diamond> diamenty = new List<Diamond>();
-        int counter = 25;
-
-
-
-
-
+      
+        int counter = 90;
 
         public Level1()
         {
             InitializeComponent();
             DoubleBuffered = true;
-
             g = CreateGraphics();
             //skrzynki
             skrzynki.Add(chest1);
@@ -54,16 +67,18 @@ namespace diamenty0
             skrzynki.Add(chest5);
             skrzynki.Add(chest6);
             skrzynki.Add(chest7);
-
-            //diamenty
-            diamenty.Add(diamond1);
-            diamenty.Add(diamond2);
-            diamenty.Add(diamond3);
-            diamenty.Add(diamond4);
-            //Znaki + - 
-            diamenty.Add(diamond5);
-            diamenty.Add(diamond6);           
-            diamenty.Add(diamond8);
+            skrzynki.Add(chest8);
+            skrzynki.Add(chest9);
+            skrzynki.Add(chest10);
+            skrzynki.Add(chest11);
+            skrzynki.Add(chest12);
+            skrzynki.Add(chest13);
+            skrzynki.Add(chest14);
+            skrzynki.Add(chest15);
+            skrzynki.Add(chest16);
+            skrzynki.Add(chest17);
+            skrzynki.Add(chest18);
+            skrzynki.Add(chest19);
 
 
             //Start Czasu 
@@ -72,8 +87,6 @@ namespace diamenty0
             timer1.Interval = 1000;
             Minutnik.Text = "00:" + counter.ToString();
             timer1.Start();
-           
-
         }
 
         private void Level1_FormClosing(object sender, FormClosingEventArgs e)
@@ -87,7 +100,9 @@ namespace diamenty0
         private void Level1_KeyDown(object sender, KeyEventArgs e)
         {
             diamentdel();
-                if (e.KeyCode == Keys.Escape)
+            bandy();
+
+            if (e.KeyCode == Keys.Escape)
                 {
                     Application.Exit();
                 }
@@ -99,35 +114,37 @@ namespace diamenty0
                     label2.Text = " y = " + user.Imgy;
                 }
 
-                if (e.KeyCode == Keys.W && user.Wspy > 182)
+                if (e.KeyCode == Keys.Up && user.Wspy > 182)
                 {
-                    bandy();                   
+                                     
                     user.moveup();
                     g.DrawImage(new Bitmap("user.png"), user.Wspx, user.Wspy, user.width, user.height);
+
                 }
 
 
-                else if (e.KeyCode == Keys.A && user.Wspx > 2)
+                else if (e.KeyCode == Keys.Left && user.Wspx > 2)
                 {                  
-                    bandy();
+                   
                     user.moveleft();
                     g.DrawImage(new Bitmap("user.png"), user.Wspx, user.Wspy, user.width, user.height);
                 }
 
-                else if (e.KeyCode == Keys.S && user.Wspy < 524)
+                else if (e.KeyCode == Keys.Down && user.Wspy < 524)
                 {
-                    bandy();    
+                       
                     user.movedown();
                     g.DrawImage(new Bitmap("user.png"), user.Wspx, user.Wspy, user.width, user.height);
                 }
 
-                else if (e.KeyCode == Keys.D && user.Wspx < 704)
+                else if (e.KeyCode == Keys.Right && user.Wspx < 704)
                 {
-                    bandy();     
+                        
                     user.moveright();
                     g.DrawImage(new Bitmap("user.png"), user.Wspx, user.Wspy, user.width, user.height);
                 }
             diamentdel();
+            bandy();
             Invalidate();
             
         }
@@ -150,7 +167,7 @@ namespace diamenty0
             e.Graphics.DrawImage(new Bitmap("3.png"), diamond1.Wspx, diamond1.Wspy, diamond1.width, diamond1.height);
             e.Graphics.DrawImage(new Bitmap("5.png"), diamond2.Wspx, diamond2.Wspy, diamond1.width, diamond1.height);
             e.Graphics.DrawImage(new Bitmap("7.png"), diamond3.Wspx, diamond3.Wspy, diamond1.width, diamond1.height);
-            e.Graphics.DrawImage(new Bitmap("white19.png"), diamond4.Wspx, diamond4.Wspy, diamond1.width, diamond1.height);
+            e.Graphics.DrawImage(new Bitmap("19.png"), diamond4.Wspx, diamond4.Wspy, diamond1.width, diamond1.height);
             //Plusy minusy
             e.Graphics.DrawImage(new Bitmap("plus.png"), diamond5.Wspx, diamond5.Wspy, diamond1.width, diamond1.height);
             e.Graphics.DrawImage(new Bitmap("plus.png"), diamond6.Wspx, diamond6.Wspy, diamond1.width, diamond1.height);
@@ -164,9 +181,20 @@ namespace diamenty0
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            Minutnik.Visible = true;
             counter--;
             bool b = false;
-            if (counter >= 10)
+            if ( counter >=70)
+            {
+               int buf = counter - 60;
+               Minutnik.Text = "01:" + buf.ToString();
+            }
+            else if ( counter >= 60 && counter <=70)
+            {
+                int buf = counter - 60;
+                Minutnik.Text = "01:0" + buf.ToString();
+            }
+            else if (counter >= 10 && counter < 60)
             {
                 Minutnik.Text = "00:" + counter.ToString();
             }
@@ -182,13 +210,14 @@ namespace diamenty0
                 timer1.Stop();
                 b = true ;
             }
-
+            //PRZEGRANA na czas
             if (b == true)
             {
                 Przegrana p = new Przegrana();
                 p.Show();
                 p.SetBounds(this.Location.X, this.Location.Y, this.Width, this.Height);
                 this.Hide();
+                timer1.Stop();
             }
         }
 
@@ -199,13 +228,35 @@ namespace diamenty0
             {
                 int r1 = Math.Abs(user.Imgx - chest.Imgx);
                 int r2 = Math.Abs(user.Imgy - chest.Imgy);
+                int polex = chest.Wspx + 50;
+                int poley = chest.Wspy + 50;
 
-                if (r1 < 60 && r2 < 60)
+               /* if (user.Wspx == polex && user.Wspy == poley)
                 {
-                    label1.Text = "bandy";
+                    user.Wspx -= 10;
+                    user.Wspy -= 10;
                 }
-
-
+                if (r1 < 50 && r2 < 50)
+                {
+                    //label1.Text = "bandy";
+                    if (user.Wspx > chest.Wspx)
+                    {
+                        user.Wspx += 10;
+                    }
+                    else if (user.Wspx < chest.Wspx)
+                    {
+                        user.Wspx -= 10;
+                    }
+                    else if (user.Wspy > chest.Wspy)
+                    {
+                        user.Wspy -= 10;
+                    }
+                    else if ( user.Wspy < chest.Wspy)
+                    {
+                        user.Wspy += 10;
+                    }
+              
+                }*/
             }
             
         }
@@ -332,7 +383,17 @@ namespace diamenty0
                 this.Hide();
                 timer1.Stop();
             }
-         }
+
+            // PRZEGRANA - zly wynik
+            if (diamond1.Wspx == 2000 && diamond2.Wspx == 2000 && diamond3.Wspx == 2000 && diamond4.Wspx == 2000 && wynik.Text != "20")
+            {
+                PrzegranaWynik p = new PrzegranaWynik();
+                p.Show();
+                p.SetBounds(this.Location.X, this.Location.Y, this.Width, this.Height);
+                this.Hide();
+                timer1.Stop();
+            }
+        }
         
         private void wynik_TextChanged(object sender, EventArgs e)
         {

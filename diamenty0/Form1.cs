@@ -46,5 +46,7 @@ namespace diamenty0
         {
             Application.Exit();
         }
+
+       
     }
 }

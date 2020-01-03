@@ -14,12 +14,12 @@ namespace diamenty0
         public int Wspy = 200;
         public int Imgx = 200 + 25;
         public int Imgy = 200 + 25;
-        
 
         public void moveup()
         {
             Wspy -= 10;
             Imgy -= 10;        
+        
         }
         public void movedown()
         {

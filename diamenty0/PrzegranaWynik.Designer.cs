@@ -1,6 +1,6 @@
 ﻿namespace diamenty0
 {
-    partial class Wygrana
+    partial class PrzegranaWynik
     {
         /// <summary>
         /// Required designer variable.
@@ -28,21 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Wygrana));
-            this.baner = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PrzegranaWynik));
             this.button1 = new System.Windows.Forms.Button();
+            this.baner = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // baner
-            // 
-            this.baner.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Bold);
-            this.baner.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.baner.Location = new System.Drawing.Point(137, 96);
-            this.baner.Name = "baner";
-            this.baner.Size = new System.Drawing.Size(736, 54);
-            this.baner.TabIndex = 7;
-            this.baner.Text = "Zdążyłeś!";
-            this.baner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
@@ -55,25 +44,37 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Wygrana
+            // baner
+            // 
+            this.baner.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Bold);
+            this.baner.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.baner.Location = new System.Drawing.Point(132, 110);
+            this.baner.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.baner.Name = "baner";
+            this.baner.Size = new System.Drawing.Size(736, 54);
+            this.baner.TabIndex = 9;
+            this.baner.Text = "Zły wynik, spróbuj jeszcze raz...";
+            this.baner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // PrzegranaWynik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(32)))));
             this.ClientSize = new System.Drawing.Size(1006, 721);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.baner);
+            this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Wygrana";
-            this.Text = "Wygrana";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Wygrana_FormClosing);
+            this.Name = "PrzegranaWynik";
+            this.Text = "PrzegranaWynik";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PrzegranaWynik_FormClosing);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label baner;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label baner;
     }
 }

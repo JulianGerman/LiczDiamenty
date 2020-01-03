@@ -10,23 +10,22 @@ using System.Windows.Forms;
 
 namespace diamenty0
 {
-    public partial class Wygrana : Form
+    public partial class PrzegranaWynik : Form
     {
-        public Wygrana()
+        public PrzegranaWynik()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             Form1 f1 = new Form1();
             f1.Show();
             f1.SetBounds(this.Location.X, this.Location.Y, this.Width, this.Height);
             this.Hide();
         }
 
-        private void Wygrana_FormClosing(object sender, FormClosingEventArgs e)
+        private void PrzegranaWynik_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }

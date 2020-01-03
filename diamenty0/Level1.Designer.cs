@@ -40,6 +40,7 @@
             this.wynik = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.znak = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.SuspendLayout();
             // 
             // timer1
@@ -82,8 +83,9 @@
             this.Minutnik.Name = "Minutnik";
             this.Minutnik.Size = new System.Drawing.Size(200, 150);
             this.Minutnik.TabIndex = 2;
-            this.Minutnik.Text = "00:45";
+            this.Minutnik.Text = "01:30";
             this.Minutnik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Minutnik.Visible = false;
             // 
             // label4
             // 
@@ -141,6 +143,12 @@
             this.znak.Text = "+";
             this.znak.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // Level1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -179,5 +187,6 @@
         private System.Windows.Forms.Label wynik;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label znak;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
